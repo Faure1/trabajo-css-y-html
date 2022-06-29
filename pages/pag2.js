@@ -71,7 +71,7 @@ export default function Home() {
                                                 <div>
                                                     <p className='text-center'>Hacer una carpeta que se llame css y dentro de ella un archivo que se llame styles.css y en html utilizamos en el head una etiqueta :</p>
                                                 </div>
-                                                <div><p className='text-center'>link rel = "stylesheet" href = "css/styless.css" /</p>
+                                                <div><p className='text-center'>link rel = stylesheet href = css/styless.css /</p>
                                                 </div>
                                                 <div><p className='text-center'>En nuestro archivo styless.css podemos codificar lo siguiente y el fondo de nuestra página cambiara de color.</p></div>
                                                 <div className='text-center'><Image alt='Ejemplo1' src='/ejemplo1.png'  width={280} height={80} layout='intrinsic'/></div>

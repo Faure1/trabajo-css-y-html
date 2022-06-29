@@ -5,7 +5,7 @@ import { Nav, Navbar,  Container, Row,Carousel,  } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination,Navigation  } from "swiper"
 import Brands from '../portafolio'
-
+import Link from 'next/link'
 
 
 
@@ -25,9 +25,9 @@ const Body = ({children}) =>{
                                 <h2 className='text-info '>CSS</h2>
                             </div>
                             <div className='d-flex justify-content-center'>
-                                <a href='/pag2'>
+                                <Link href='/pag2'>
                                     <Image alt='Css' src='/css.png'  width={280} height={200} layout='intrinsic'/>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -39,9 +39,9 @@ const Body = ({children}) =>{
                                 <h2 className='text-danger'>HTML</h2>
                             </div>
                             <div className='d-flex justify-content-center'>
-                                    <a>
+                                    <Link href='/pag3'>
                                         <Image  alt='HTML' src='/html.png'  width={280} height={200} layout='intrinsic'/>
-                                    </a>
+                                    </Link>
                             </div>
                         </div>
                     </div>
